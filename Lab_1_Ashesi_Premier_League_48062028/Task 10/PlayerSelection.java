@@ -105,5 +105,28 @@ public class PlayerSelection {
         System.out.println("Jersey Number : "+jerseynumber);
         System.out.println("Position : "+position + "\nAttacker Jersey : "+attackerjersey +"\nEligibility : "+ eligibility);
         System.out.println("Lineup Decision : "+decision+"\nFinal Decision : "+finalStatus);
+
+        //Unwanted fall through
+       switch(jerseynumber){
+            case 1:
+                System.out.println("Goalkeeper");
+            case 2:
+                System.out.println("Defender");
+            case 5:
+                System.out.println("Defender");
+            case 6:
+                System.out.println("Midfielder");
+            case 7:
+                System.out.println("Winger");
+            case 8:
+                System.out.println("Midfielder");
+            case 9:
+                System.out.println("Striker");
+            case 10:
+                System.out.println("Winger");              
+            default:
+                System.out.println("Invalid input");
+                
+            }
     }    
 }
