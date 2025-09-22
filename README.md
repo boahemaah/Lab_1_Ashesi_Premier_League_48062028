@@ -1,0 +1,2 @@
+# Lab_1_Ashesi_Premier_League_48062028
+First lab assignment
