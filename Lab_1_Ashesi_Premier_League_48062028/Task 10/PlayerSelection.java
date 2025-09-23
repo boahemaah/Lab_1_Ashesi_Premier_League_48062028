@@ -17,12 +17,12 @@ public class PlayerSelection {
         height=input.nextDouble();
         System.out.print("Enter your jerseynumber:");
         jerseynumber=input.nextInt();        
-        final double pound=0.45359237;
-        final double meter=100;
+        final double POUND=0.45359237;
+        final double METER=100;
         double height_cm;
         double weight_kg;
-        height_cm= (int) height*meter;
-        weight_kg= (double) weight*pound;        
+        height_cm= (int) height*METER;
+        weight_kg= (double) weight*POUND;        
         String category="";
         if (age<20){
             category="Rising Star";                       
@@ -130,3 +130,4 @@ public class PlayerSelection {
             }
     }    
 }
+
